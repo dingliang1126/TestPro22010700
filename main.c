@@ -108,6 +108,7 @@ int main()
     printf("     Addr of char_long_short.s = %p (10进制：%ld)\n", (void*)&char_long_short.s, (long)&char_long_short.s);
     printf(" \n");
 
+    printf("my name is dingliang.");
 
     return 0;
 }
