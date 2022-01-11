@@ -101,7 +101,12 @@ int main()
     printf("     Addr of char_long_short.s = %p (10进制：%ld)\n", (void*)&char_long_short.s, (long)&char_long_short.s);
     printf(" \n");
 
-
+    printf(" \n"); // char_long_short
+    printf(" Size of char_long_short       = %d bytes\n", (int)sizeof(char_long_short));
+    printf("     Addr of char_long_short.c = %p (10进制：%ld)\n", (void*)&char_long_short.c, (long)&char_long_short.c);
+    printf("     Addr of char_long_short.l = %p (10进制：%ld)\n", (void*)&char_long_short.l, (long)&char_long_short.l);
+    printf("     Addr of char_long_short.s = %p (10进制：%ld)\n", (void*)&char_long_short.s, (long)&char_long_short.s);
+    printf(" \n");
 
 
 
