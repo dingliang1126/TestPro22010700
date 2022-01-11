@@ -31,10 +31,3 @@ static void _Rectangle_draw_(Shape const* const me){
 }
 
                     
-
-
-
-
-
-
-
